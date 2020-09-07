@@ -9,7 +9,7 @@
     "server:start": "nest start",
     "server:start:dev": "nest start --watch",
     "server:start:debug": "nest start --debug --watch",
-    "server:start:prod": "node dist/main",
+    "server:start:prod": "node server_dist/main",
     "server:prebuild": "rimraf server_dist",
     "server:build": "nest build",
     "client:watch": "webpack --mode development --watch",

@@ -10,7 +10,7 @@ import {FilesService} from './files.service';
 describe('FilesService', () => {
   let filesService: FilesService;
 
-  beforeEach(async () => {
+  beforeAll(async () => {
     const app: TestingModule = await Test.createTestingModule({
       imports: [
         DatabaseModule,

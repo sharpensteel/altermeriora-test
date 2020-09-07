@@ -10,7 +10,7 @@ import {FilesService} from './files.service';
     SequelizeModule.forFeature([FileModel]),
     MulterModule.register({
       limits: {
-        fileSize: 2e4,
+        fileSize: 1e6,
       }
     }),
   ],

@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "client",
+    "server_dist",
+    "public",
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+    "test",
+    "tmp",
+    "**/*spec.ts"
+  ]
+}

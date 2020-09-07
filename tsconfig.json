@@ -1,0 +1,29 @@
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./server_dist",
+    "baseUrl": "./server",
+    "incremental": true,
+    "jsx": "react"
+  },
+  "include": ["server"],
+  "exclude": [
+    "client",
+    "server_dist",
+    "public",
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+    "test",
+    "tmp"
+  ]
+}

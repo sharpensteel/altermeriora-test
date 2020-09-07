@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/js/",
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": false,
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "rootDir": "./client",
+    "suppressImplicitAnyIndexErrors": true,
+    "downlevelIteration": true,
+    "importHelpers": true
+  },
+  "exclude": [
+    "server",
+    "server_dist",
+    "public",
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+    "test",
+    "tmp",
+    "views"
+  ]
+}
